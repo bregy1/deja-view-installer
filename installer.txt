@@ -1,0 +1,11 @@
+installer plans::
+
+	- The installer asks the user for a installation folder.
+		- the installer will also be responsible the api for a normal user
+		It will create and update config file.
+	- The installer is generally in java and has its own repo-
+	- the installer first downloads node, and clones deja-view repository =>https://www.codeaffine.com/2015/11/30/jgit-clone-repository/
+	- the installer runs npm install 
+	- the installer compiles the deja-view repo
+	- the installer clones itself into install location
+	- the installer will create shortcut. => https://stackoverflow.com/questions/13145942/creating-a-shortcut-file-from-java

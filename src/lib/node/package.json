@@ -1,0 +1,29 @@
+{
+  "name": "deja-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"install.start": "npm install && ts-node index.ts"
+    "start": "ts-node main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bregySilvan/rasmus-v2.git"
+  },
+  "author": "bregy Silvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bregySilvan/rasmus-v2.git"
+  },
+  "homepage": "https://github.com/bregySilvan/rasmus-v2#readme",
+  "devDependencies": {
+    "python": "0.0.4",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+		"deja-view": "git+https://git@github.com/visionmedia/express.git"
+  }
+}

@@ -4,8 +4,29 @@ installer plans::
 		- the installer will also be responsible the api for a normal user
 		It will create and update config file.
 	- The installer is generally in java and has its own repo-
-	- the installer first downloads node, and clones deja-view repository =>https://www.codeaffine.com/2015/11/30/jgit-clone-repository/
-	- the installer runs npm install 
-	- the installer compiles the deja-view repo
+	- the installer first downloads node, and runs npm i ( basically just cloning deja-view repository =>https://www.codeaffine.com/2015/11/30/jgit-clone-repository/ )
 	- the installer clones itself into install location
 	- the installer will create shortcut. => https://stackoverflow.com/questions/13145942/creating-a-shortcut-file-from-java
+
+
+
+
+
+
+	
+
+
+
+
+
+		lets add settings and installation
+		
+		
+	- user needs to download actual installer
+		- the installer is actually the same file as the app entry point for a normal user
+		- Its used for making user settings and intsallation.
+	- jar file starts:
+		- user enters installationpath
+		- downloads actual node binary
+		- runs npm i ( includes deja-view)
+		- spawns 
